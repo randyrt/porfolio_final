@@ -32,7 +32,7 @@ body {
   background-color: #39d4c0;
   margin-bottom: 5px;
   max-height: 300px;
-  box-shadow: 0 10px 10px #39d4c0;
+  box-shadow: 0 10px 10px rgb(57, 212, 192);
 }
 .top-navbar p {
   display: inline-block;
