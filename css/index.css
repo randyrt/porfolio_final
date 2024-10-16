@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #1e2d3c;
   padding-bottom: 0 !important;
   font-size: small !important;
@@ -114,7 +114,7 @@ a {
 }
 
 .my-logo {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #39d4c0;
   letter-spacing: 2px;
   position: relative;
@@ -193,7 +193,6 @@ a {
   padding: 9px 24px;
   font-weight: 500;
 }
-
 
 .light-mode {
   background-color: #fffbf8 !important;
@@ -383,10 +382,10 @@ img {
   width: 100% !important;
 }
 
-#hero-slider .slide1 .text-white, #hero-slider .slide2 .text-white  {
+#hero-slider .slide1 .text-white,
+#hero-slider .slide2 .text-white {
   font-size: 30px !important;
 }
-
 
 #hero-slider {
   z-index: 0 !important;
@@ -438,7 +437,6 @@ img {
 .unique a {
   color: #39d4c0;
   padding: 22px;
-  
 }
 .unique .btn-outline {
   background-color: #f7fff7 !important;
@@ -588,7 +586,7 @@ img {
   display: grid;
   padding-top: 10px !important;
   padding-bottom: 10px !important;
-   place-items: center;
+  place-items: center;
   justify-content: center;
   background-color: #f7fff7 !important;
   margin-top: -30px !important;
@@ -615,7 +613,7 @@ img {
   );
   position: absolute;
   width: 95%;
-  height: 120px;
+  height: 110px;
   bottom: 0;
   left: 0;
 }
@@ -820,7 +818,7 @@ footer .direction {
   color: #f7fff7;
 }
 
- #contactPopup textarea {
+#contactPopup textarea {
   min-height: 110px !important;
   font-size: 11px !important;
   color: #000;
