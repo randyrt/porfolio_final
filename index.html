@@ -27,6 +27,13 @@
   </head>
 
   <body>
+    <script src="./javascript/scrool.min.js"></script>
+    <script>
+      AOS.init({
+        disable: 'mobile',
+      });
+
+    </script>
     <!--NAVBAR-->
     <nav class=" navbar navbar-expand-lg hide" id="hide">
       <div class="container" id="darkness-mode">
@@ -232,7 +239,7 @@
       </div>
     </section>
 
-    <div class="container mt-3 text-center display-6 text-uppercase unique" data-aos="flip-up" data-aos-delay="300"
+    <div class="container mt-3 text-center display-6 text-uppercase unique" data-aos="zoom-in" data-aos-delay="300"
       data-aos-duration="1000" id="about">
       Who am I ?
     </div>
@@ -279,7 +286,7 @@
       </div>
     </div>
 
-    <div class="container text-center display-6 unique" data-aos="slide-up" data-aos-duration="1000">
+    <div class="container text-center display-6 unique" data-aos="fade-right" data-aos-duration="1000">
       WHAT MAKES ME UNIQUE ?
 
       <img src="./images/webcup.jpg" class="mt-3 img-webcup img-fluid" alt="image de webcup">
@@ -1013,14 +1020,8 @@
         <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
         <script src="./javascript/emailsend.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-        <script src="./javascript/scrool.min.js"></script>
-        <script>
-          AOS.init({
-            disable: 'mobile',
-            once: false,
-          });
 
-        </script>
+
         <script src="./javascript/welcome.js"></script>
         <script src="./javascript/popup.js"> </script>
         <script src="./javascript/jquery.min.js"> </script>
