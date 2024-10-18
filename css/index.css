@@ -196,11 +196,11 @@ a {
 
 .light-mode {
   background-color: #fffbf8 !important;
-  color: #000;
+  color: #000 !important;
 }
 .dark-mode {
   background-color: #061a1b !important;
-  color: #f0f0f0;
+  color: #f0f0f0 !important;
 }
 .theme-toggle {
   position: relative;
