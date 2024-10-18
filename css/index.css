@@ -816,6 +816,7 @@ footer .direction {
 .button:hover {
   background-color: #4ecdc4;
   color: #f7fff7;
+  transition: 0.5s linear !important;
 }
 
 #contactPopup textarea {
