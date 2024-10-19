@@ -77,29 +77,34 @@ a {
 .social-links a {
   margin-left: 10px;
 }
+
 .hide {
   position: fixed;
+  transition: 1s ease-in-out !important;
   top: 0;
   left: 0;
   right: 0;
   background-color: #f7f4d4;
-  transition: 0.5s linear;
   transform: translateY(0);
   z-index: 1 !important;
 }
+
 .hide.hidden {
   transform: translateY(-150%);
 }
+
 .navbar {
   box-shadow: 0 6px 10px rgba(57, 212, 193);
   color: #f7f4d4 !important;
   padding: 10px;
   background-color: #1a535c;
 }
+
 .darkness-mode,
 .lightme-mode {
   background-color: #1a535c !important;
 }
+
 .navbar .navbar-nav .nav-item button {
   margin-left: 10px !important;
   border: none;
@@ -156,12 +161,15 @@ a {
   background-color: #1a535c !important;
   border: 1px solid #1e2d3c !important;
 }
+
 .collapse .btn-info {
   background-color: #f7fff7 !important;
+  border: 2px solid rgb(57, 212, 192) !important;
   color: #f7fff7;
   padding: 0 !important;
   min-height: 50px;
 }
+
 .collapse .btn-info a {
   padding: 20px;
 }
@@ -173,6 +181,7 @@ a {
 .collapse .btn-info:hover {
   color: #f7f4d4 !important;
   background-color: rgba(57, 212, 193) !important;
+  border: 1px solid #f7fff7 !important;
   transition: 0.5s linear !important;
 }
 
@@ -317,11 +326,13 @@ p {
 .btn-outline {
   padding: 15px;
   background-color: #f7fff7;
+  border: 2px solid rgb(57, 212, 192) !important;
   color: rgba(57, 212, 193);
-  min-height: 50px;
+  min-height: 57px;
 }
 .btn-outline:hover {
   background-color: rgba(57, 212, 193);
+  border: 1px solid #f7fff7 !important;
   color: #f7f4d4;
   transition: 0.5s linear !important;
 }
@@ -720,6 +731,7 @@ footer .lieu {
 footer .direction {
   color: #000;
 }
+
 .image-dev {
   width: 120px;
   height: 120px;
@@ -729,18 +741,22 @@ footer .direction {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   padding: 14px !important;
 }
+
 .text-change-black {
   color: #1e2d3c;
 }
+
 .focus,
 .notab {
   font-size: 16px !important;
 }
+
 .hover-parent {
   position: relative;
   align-items: center;
   justify-content: center;
 }
+
 .hover-text {
   position: absolute;
   bottom: 10px;
@@ -767,7 +783,6 @@ footer .direction {
 }
 
 /* Popup de contact */
-
 .popup {
   display: none;
   position: fixed;
@@ -800,9 +815,19 @@ footer .direction {
   cursor: pointer;
 }
 
+.popup .btn-info {
+  background-color:#1a535c !important;
+  border: 2px solid rgb(57, 212, 192) !;
+}
+
+.popup .btn-info:hover {
+  background-color: #1a535cbd !important;
+}
+
 /* Style du bouton de soumission */
 .button {
   background-color: #f7fff7;
+  border: 2px solid rgb(57, 212, 192) !important;
   color: #39d4c0;
   margin-left: 30px;
   height: 55px;
@@ -815,6 +840,7 @@ footer .direction {
 
 .button:hover {
   background-color: #4ecdc4;
+  border: 1px solid #f7fff7 !important;
   color: #f7fff7;
   transition: 0.5s linear !important;
 }

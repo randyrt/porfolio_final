@@ -23,8 +23,13 @@
   }
   .social-links a svg,
   .wrapper .col-md-3 {
+    font-size: 25px !important;
+  }
+
+  .section-un .devise {
     font-size: 10px !important;
   }
+
   .wrapper {
     display: flex;
     width: 100%;
