@@ -832,7 +832,7 @@ footer .direction {
 
 /* SCROOLBAR Y*/
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-track {
