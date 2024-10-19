@@ -836,13 +836,13 @@ footer .direction {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #f7fff7;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: rgb(57, 212, 192);
   border-radius: 10px;
-  border: 2px solid #f1f1f1;
+  border: 2px solid #f7fff7;
 }
 
 ::-webkit-scrollbar-thumb:hover {
