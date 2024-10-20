@@ -834,8 +834,9 @@ footer .direction {
   border: 2px solid rgb(57, 212, 192) !important;
   color: #39d4c0;
   margin-left: 30px;
-  height: 55px;
-  width: 160px;
+  padding: 10px;
+  height: 57px;
+  width: 163px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
