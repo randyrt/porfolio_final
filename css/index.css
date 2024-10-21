@@ -206,7 +206,7 @@ a {
 
 .light-mode {
   background-color: #fffbf8 !important;
-  color: #061a1b!important;
+  color: #061a1b !important;
 }
 .dark-mode {
   background-color: #061a1b !important;
@@ -736,13 +736,13 @@ footer .direction {
 }
 
 .image-dev {
-  width: 120px;
-  height: 120px;
-  border: 2px solid #333;
-  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
   border-color: #ffff;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  padding: 14px !important;
+  background-color: #f7fff7;
+  box-shadow: 0 1px 1px rgba(57, 212, 191, 0.781);
+  padding: 17px !important;
 }
 
 .text-change-black {
@@ -817,8 +817,6 @@ footer .direction {
   font-size: 24px;
   cursor: pointer;
 }
-
-
 
 /* Style du bouton de soumission */
 .button {
