@@ -818,15 +818,7 @@ footer .direction {
   cursor: pointer;
 }
 
-.popup .btn-info {
-  background-color: rgb(0, 204, 255) !important;
-  border: 0.5px solid #1a535c;
-  font-size: small !important;
-}
 
-.popup .btn-info:hover {
-  background-color: rgba(1, 175, 218, 0.849) !important;
-}
 
 /* Style du bouton de soumission */
 .button {
@@ -848,6 +840,16 @@ footer .direction {
   border: 2px solid #f7fff7 !important;
   color: #f7fff7;
   transition: 0.5s linear !important;
+}
+
+.popup .btn-info {
+  background-color: rgb(0, 204, 255) !important;
+  border: 0.5px solid #1a535c;
+  font-size: small !important;
+}
+
+.popup .btn-info:hover {
+  background-color: rgba(1, 175, 218, 0.849) !important;
 }
 
 #contactPopup textarea {
