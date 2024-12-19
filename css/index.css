@@ -585,12 +585,30 @@ img {
   background-color: #f7fff7;
   margin-right: 30px;
 }
-#project-slider .image {
+#project-slider1 .image {
   width: 95%;
   height: 300px;
 }
-#project-slider .owl-next,
-#project-slider .owl-prev {
+
+#project-slider2 .image {
+  width: 95%;
+  height: 300px;
+}
+
+#project-slider3 .image {
+  width: 95%;
+  height: 300px;
+}
+
+#project-slider4 .image {
+  width: 95%;
+  height: 300px;
+}
+
+
+
+#project-slider1 .owl-next,
+#project-slider1 .owl-prev {
   position: absolute;
   top: 50%;
   width: 60px !important;
