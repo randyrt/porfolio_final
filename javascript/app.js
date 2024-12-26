@@ -7,14 +7,14 @@ $(document).ready(function () {
     items: 1,
     dots: false,
     smartSpeed: 9000,
-    autoplay: true,          
-    autoplayTimeout: 9000,  
+    autoplay: true,
+    autoplayTimeout: 9000,
     smartSpeed: 9000,
-    autoplayHoverPause: true,  
-    animateOut: 'fadeOut',   
+    autoplayHoverPause: true,
+    animateOut: 'fadeOut',
     animateIn: 'fadeIn',
     navText: [
-      '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L6.707 7l4.647 4.646a.5.5 0 0 1-.708.708l-5-5a.5.5 0 0 1 0-.708l5-5a.5.5 0 0 1 .708 0z"/></svg>', 
+      '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L6.707 7l4.647 4.646a.5.5 0 0 1-.708.708l-5-5a.5.5 0 0 1 0-.708l5-5a.5.5 0 0 1 .708 0z"/></svg>',
       '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="3O" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l5 5a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708-.708L9.293 8 4.646 3.354a.5.5 0 0 1 0-.708z"/></svg>'
     ],
     responsive: {
@@ -28,21 +28,22 @@ $(document).ready(function () {
   });
 
   // Project number one, slider
-    $('#project-slider1').owlCarousel({
+  $('#project-slider1').owlCarousel({
     loop: true,
-    margin: 0,
+    margin: 10,
+    mouseDrag: true,
     nav: true,
     dots: false,
-    smartSpeed: 1000,
+    smartSpeed: 500,
     navText: [
-    '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L6.707 7l4.647 4.646a.5.5 0 0 1-.708.708l-5-5a.5.5 0 0 1 0-.708l5-5a.5.5 0 0 1 .708 0z"/></svg>', 
-    '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l5 5a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708-.708L9.293 8 4.646 3.354a.5.5 0 0 1 0-.708z"/></svg>'
-   ],
+      '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L6.707 7l4.647 4.646a.5.5 0 0 1-.708.708l-5-5a.5.5 0 0 1 0-.708l5-5a.5.5 0 0 1 .708 0z"/></svg>',
+      '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l5 5a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708-.708L9.293 8 4.646 3.354a.5.5 0 0 1 0-.708z"/></svg>'
+    ],
     smartSpeed: 1000,
-    autoplay: true,          
-    autoplayTimeout: 5000,  
-    smartSpeed: 5000,
-    autoplayHoverPause: true,  
+    autoplay: true,
+    autoplayTimeout: 1000,
+    smartSpeed: 1000,
+    autoplayHoverPause: true,
     responsive: {
       0: {
         items: 1,
@@ -60,7 +61,7 @@ $(document).ready(function () {
     }
   });
 
-   // Project number two, slider
+  // Project number two, slider
   $('#project-slider2').owlCarousel({
     loop: true,
     margin: 0,
@@ -68,14 +69,14 @@ $(document).ready(function () {
     dots: false,
     smartSpeed: 1000,
     navText: [
-    '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L6.707 7l4.647 4.646a.5.5 0 0 1-.708.708l-5-5a.5.5 0 0 1 0-.708l5-5a.5.5 0 0 1 .708 0z"/></svg>', 
-    '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l5 5a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708-.708L9.293 8 4.646 3.354a.5.5 0 0 1 0-.708z"/></svg>'
-   ],
+      '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L6.707 7l4.647 4.646a.5.5 0 0 1-.708.708l-5-5a.5.5 0 0 1 0-.708l5-5a.5.5 0 0 1 .708 0z"/></svg>',
+      '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l5 5a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708-.708L9.293 8 4.646 3.354a.5.5 0 0 1 0-.708z"/></svg>'
+    ],
     smartSpeed: 1000,
-    autoplay: true,          
-    autoplayTimeout: 5000,  
+    autoplay: true,
+    autoplayTimeout: 5000,
     smartSpeed: 5000,
-    autoplayHoverPause: true,  
+    autoplayHoverPause: true,
     responsive: {
       0: {
         items: 1,
@@ -93,7 +94,7 @@ $(document).ready(function () {
     }
   });
 
-   // Project number three, slider
+  // Project number three, slider
   $('#project-slider3').owlCarousel({
     loop: true,
     margin: 0,
@@ -101,14 +102,14 @@ $(document).ready(function () {
     dots: false,
     smartSpeed: 1000,
     navText: [
-    '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L6.707 7l4.647 4.646a.5.5 0 0 1-.708.708l-5-5a.5.5 0 0 1 0-.708l5-5a.5.5 0 0 1 .708 0z"/></svg>', 
-    '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l5 5a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708-.708L9.293 8 4.646 3.354a.5.5 0 0 1 0-.708z"/></svg>'
-   ],
+      '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L6.707 7l4.647 4.646a.5.5 0 0 1-.708.708l-5-5a.5.5 0 0 1 0-.708l5-5a.5.5 0 0 1 .708 0z"/></svg>',
+      '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l5 5a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708-.708L9.293 8 4.646 3.354a.5.5 0 0 1 0-.708z"/></svg>'
+    ],
     smartSpeed: 1000,
-    autoplay: true,          
-    autoplayTimeout: 5000,  
+    autoplay: true,
+    autoplayTimeout: 5000,
     smartSpeed: 5000,
-    autoplayHoverPause: true,  
+    autoplayHoverPause: true,
     responsive: {
       0: {
         items: 1,
@@ -126,7 +127,7 @@ $(document).ready(function () {
     }
   });
 
-   // Project number four, slider
+  // Project number four, slider
   $('#project-slider4').owlCarousel({
     loop: true,
     margin: 0,
@@ -134,14 +135,14 @@ $(document).ready(function () {
     dots: false,
     smartSpeed: 1000,
     navText: [
-    '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L6.707 7l4.647 4.646a.5.5 0 0 1-.708.708l-5-5a.5.5 0 0 1 0-.708l5-5a.5.5 0 0 1 .708 0z"/></svg>', 
-    '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l5 5a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708-.708L9.293 8 4.646 3.354a.5.5 0 0 1 0-.708z"/></svg>'
-   ],
+      '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L6.707 7l4.647 4.646a.5.5 0 0 1-.708.708l-5-5a.5.5 0 0 1 0-.708l5-5a.5.5 0 0 1 .708 0z"/></svg>',
+      '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l5 5a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708-.708L9.293 8 4.646 3.354a.5.5 0 0 1 0-.708z"/></svg>'
+    ],
     smartSpeed: 1000,
-    autoplay: true,          
-    autoplayTimeout: 5000,  
+    autoplay: true,
+    autoplayTimeout: 5000,
     smartSpeed: 5000,
-    autoplayHoverPause: true,  
+    autoplayHoverPause: true,
     responsive: {
       0: {
         items: 1,
@@ -161,4 +162,30 @@ $(document).ready(function () {
 
 });
 
+// Modal for all image when its clicked
+const modal = document.getElementById('imageModal');
+const modalImage = document.getElementById('modalImage');
+const closeModal = document.getElementById('closeModal');
 
+document.querySelectorAll('#project-slider1 .project img').forEach((image) => {
+  image.addEventListener('click', () => {
+    AOS.init({ disable: true });
+    modal.style.display = 'flex';
+    modalImage.src = image.src;
+    console.log(modalImage);
+  });
+});
+
+closeModal.addEventListener('click', () => {
+  modal.style.display = 'none';
+  AOS.init({});
+  AOS.refresh();
+});
+
+modal.addEventListener('click', (e) => {
+  if (e.target === modal) {
+    modal.style.display = 'none';
+    AOS.init({});
+    AOS.refresh();
+  }
+});

@@ -1,0 +1,48 @@
+/* Owl Carousel Default Styling */
+.owl-carousel .project img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    z-index: 0;
+  }
+  
+  .owl-carousel .project img:hover {
+    transform: scale(1.05);
+    width: 100%;
+    height: auto;
+    position: relative !important;
+    z-index: 9999 !important;
+  }
+
+  /* Modal Styling */
+  .image-modal {
+    display: none;
+    position: fixed;
+    z-index: 999 ;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100% !important;
+    background-color: #3fc0afb6;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.712);
+    transition: 2s linear;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  
+  .image-modal .modal-content {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+  }
+  
+  .image-modal .close-modal {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+  }
+  

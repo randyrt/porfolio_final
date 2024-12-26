@@ -430,18 +430,25 @@ img {
   border-radius: 100px !important;
   color: rgba(57, 212, 193) !important;
 }
+
 .owl-prev {
   left: 140px !important;
 }
 .owl-next {
   right: 140px !important;
 }
+
 .owl-next:hover,
 .owl-prev:hover {
   background-color: #1a535c !important;
   color: #f7fff7 !important;
   transition: 0.5s linear !important;
 }
+
+.owl-carousel .owl-item img {
+  cursor: pointer;
+}
+
 .unique .text-primary {
   color: #4ecdc4 !important;
   font-weight: 600 !important;
@@ -461,6 +468,7 @@ img {
 .unique .btn-outline:hover {
   background-color: #4ecdc4 !important;
 }
+
 .line {
   background-color: #061a1b;
   height: 1px;
@@ -470,21 +478,25 @@ img {
 .line-dark {
   background-color: #f7fff7;
 }
+
 .line-white {
   background-color: #061a1b;
 }
+
 .circle-image {
   width: 100%;
   height: auto;
   border-radius: 50%;
   object-fit: cover;
 }
+
 .custom-card {
   background-color: #01afda;
   color: #f7fff7;
   border-radius: 10px;
   padding: 15px;
 }
+
 .image-info {
   border-radius: 50%;
   height: 500px;
@@ -624,6 +636,13 @@ img {
   border-radius: 100px !important;
 }
 
+#project-slider1 .owl-next:hover,
+#project-slider1 .owl-prev:hover {
+  background-color: #1a535c !important;
+  color: #f7fff7 !important;
+}
+
+
 .project {
   position: relative;
   margin-bottom: 80px !important;
@@ -689,7 +708,7 @@ footer p {
 #project-slider .owl-next:hover,
 #project-slider .owl-prev:hover {
   background-color: #1a535c !important;
-  color: #f7fff7;
+  color: #f7fff7 !important;
 }
 footer {
   padding-top: 20px;
@@ -799,6 +818,7 @@ footer .direction {
   display: block;
   transition: opacity 1s;
 }
+
 .hover-parent:hover img {
   opacity: 0.5;
 }
@@ -906,5 +926,8 @@ footer .direction {
   position: fixed;
   z-index: 100;
 }
-
 */
+
+
+
+
