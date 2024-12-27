@@ -41,8 +41,8 @@ $(document).ready(function () {
     ],
     smartSpeed: 1000,
     autoplay: true,
-    autoplayTimeout: 1000,
-    smartSpeed: 1000,
+    autoplayTimeout: 2000,
+    smartSpeed: 2000,
     autoplayHoverPause: true,
     responsive: {
       0: {
@@ -74,8 +74,8 @@ $(document).ready(function () {
     ],
     smartSpeed: 1000,
     autoplay: true,
-    autoplayTimeout: 5000,
-    smartSpeed: 5000,
+    autoplayTimeout: 2000,
+    smartSpeed: 2000,
     autoplayHoverPause: true,
     responsive: {
       0: {
@@ -167,7 +167,9 @@ const modal = document.getElementById('imageModal');
 const modalImage = document.getElementById('modalImage');
 const closeModal = document.getElementById('closeModal');
 
-document.querySelectorAll('#project-slider1 .project img').forEach((image) => {
+document.querySelectorAll(
+  '#project-slider1 .project img, #project-slider2 .project img',
+).forEach((image) => {
   image.addEventListener('click', () => {
     AOS.init({ disable: true });
     modal.style.display = 'flex';
@@ -177,9 +179,11 @@ document.querySelectorAll('#project-slider1 .project img').forEach((image) => {
 });
 
 closeModal.addEventListener('click', () => {
-  modal.style.display = 'none';
-  AOS.init({});
-  AOS.refresh();
+  if (modal.style.display = 'none') {
+    AOS.init({});
+    AOS.refresh();
+    console.log('none click close modal')
+  }
 });
 
 modal.addEventListener('click', (e) => {
@@ -187,5 +191,6 @@ modal.addEventListener('click', (e) => {
     modal.style.display = 'none';
     AOS.init({});
     AOS.refresh();
+    console.log('none click out')
   }
 });

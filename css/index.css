@@ -412,6 +412,7 @@ img {
 .slide2 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.438);
 }
+
 .owl-next,
 .owl-prev {
   position: absolute;
@@ -465,6 +466,7 @@ img {
 .unique a:hover {
   color: #f7fff7;
 }
+
 .unique .btn-outline:hover {
   background-color: #4ecdc4 !important;
 }
@@ -560,6 +562,7 @@ img {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.63);
   min-height: 650px;
 }
+
 .what-section .image1,
 .what-section .image2 {
   width: 100px;
@@ -581,6 +584,7 @@ img {
 .text-change-white {
   color: #f7fff7 !important;
 }
+
 .text-change-black,
 .text-change-white {
   font-size: 1.2rem !important;
@@ -616,7 +620,6 @@ img {
   width: 95%;
   height: 300px;
 }
-
 
 
 #project-slider1 .owl-next,
@@ -733,10 +736,12 @@ footer .social-links svg {
   height: 51px !important;
   margin-bottom: 10px;
 }
+
 footer .footer-top p {
   margin-top: 30px;
   color: #39d4c0;
 }
+
 footer .go-top-btn {
   border: 1px solid #01afda;
   border-radius: 5px;
@@ -745,14 +750,17 @@ footer .go-top-btn {
   background-color: #fffbf8;
   margin-top: 30px;
 }
+
 footer .go-top-btn a {
   color: #39d4c0;
   padding: 10px;
 }
+
 footer .go-top-btn a:hover {
   color: #f7fff7;
   border: 0.5px solid #333;
 }
+
 .footer-top p,
 footer .lieu {
   color: #2e445a !important;
@@ -916,17 +924,6 @@ footer .direction {
 ::-webkit-scrollbar-thumb:hover {
   background-color: rgb(57, 212, 192);
 }
-
-/*PRELOADER
-
-#preloader {
-  background: #000;
-  height: 100% !important;
-  width: 100%;
-  position: fixed;
-  z-index: 100;
-}
-*/
 
 
 
