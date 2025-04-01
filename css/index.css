@@ -424,7 +424,7 @@ img {
   display: grid;
   align-items: center;
   justify-content: center;
-  background-color: #f7fff7 !important;
+  background-color: #fee471 !important;
   transform: translateY(-50%);
   font-weight: 900 !important;
   font-size: 10px !important;
@@ -434,9 +434,11 @@ img {
 
 .owl-prev {
   left: 140px !important;
+  background-color: #fee471 !important;
 }
 .owl-next {
   right: 140px !important;
+  background-color: #fee471 !important;
 }
 
 .owl-next:hover,
@@ -611,17 +613,6 @@ img {
   height: 300px;
 }
 
-#project-slider3 .image {
-  width: 95%;
-  height: 300px;
-}
-
-#project-slider4 .image {
-  width: 95%;
-  height: 300px;
-}
-
-
 #project-slider1 .owl-next,
 #project-slider1 .owl-prev {
   position: absolute;
@@ -633,7 +624,7 @@ img {
   padding-bottom: 10px !important;
   place-items: center;
   justify-content: center;
-  background-color: #f7fff7 !important;
+  background-color: #fee471 !important;
   margin-top: -30px !important;
   font-size: 12px !important;
   border-radius: 100px !important;
@@ -650,13 +641,16 @@ img {
   position: relative;
   margin-bottom: 80px !important;
 }
+
 .intro-project {
   margin-top: 40px !important;
 }
+
 .intro-project p {
   font-size: 15px;
   color: #c8c8c8;
 }
+
 .project .content {
   background: linear-gradient(
     to top,
@@ -708,6 +702,7 @@ footer p {
 #project-slider .owl-next {
   margin-right: 35px !important;
 }
+
 #project-slider .owl-next:hover,
 #project-slider .owl-prev:hover {
   background-color: #1a535c !important;
@@ -831,14 +826,16 @@ footer .direction {
   opacity: 0.5;
 }
 
-/* Popup de contact */
+/* Popup de contact (fix bug here)*/
 .popup {
   display: none;
   position: fixed;
   z-index: 999;
+  margin-top: 70px;
+  margin-left: 400px;
   left: 0;
   top: 0;
-  width: 80%;
+  width: 60%;
   height: 60%;
   background-color: #39d4bfec;
   border-radius: 10px;
@@ -849,8 +846,11 @@ footer .direction {
 .popup-content {
   background-color: #39d4bfe7 !important;
   margin: 10% auto;
+  left: 0;
+  top: 0;
   padding: 30px;
   width: 100%;
+  margin-top: 50px;
   text-align: center;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.692);
   transition: 3s linear;

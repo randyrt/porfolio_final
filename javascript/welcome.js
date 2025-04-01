@@ -31,15 +31,3 @@ if (hasOneDayPassed()) {
     };
 }
    
-/*
-document.querySelector('.success').addEventListener('click', function () {
-  Swal.fire({
-    title: 'Congratulation !',
-    text: 'Message send with success !',
-    position: 'center',
-    timer: 3000,
-    timerProgressBar: true,
-  });
-});
-
-*/

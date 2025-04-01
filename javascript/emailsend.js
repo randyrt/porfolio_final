@@ -5,7 +5,6 @@
 document.getElementById('contactForm').addEventListener('submit', function(event) {
     event.preventDefault();
 
-   
     var submitButton = this.querySelector('button[type="submit"]');
     submitButton.disabled = true;
 
@@ -17,6 +16,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
                 icon: 'success',
                 confirmButtonText: 'OK'
             });
+            document.getElementById('contactForm').reset();
             document.getElementById('contactPopup').style.display = 'none'; 
         }, function(error) {
             Swal.fire({
@@ -33,3 +33,5 @@ document.getElementById('contactForm').addEventListener('submit', function(event
             }, 2000);
         });
 });
+
+
