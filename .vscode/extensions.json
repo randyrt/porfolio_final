@@ -1,3 +1,9 @@
 {
+<<<<<<< HEAD
     "recommendations": []
+=======
+    "recommendations": [
+        "ritwickdey.liveserver"
+    ]
+>>>>>>> 34dac625401a7e4ab4b21b9a611b8c21d12389fb
 }

@@ -8,7 +8,7 @@ body {
   overflow-x: hidden;
   margin-bottom: auto;
   min-height: 100vh;
-  background-color: #fffbf8 !important;
+/*  background-color: #fffbf8 !important; */
 }
 
 .collapse .btn-info a,
@@ -776,8 +776,8 @@ footer .direction {
 }
 
 .image-dev {
-  width: 110px;
-  height: 110px;
+  width: 90px;
+  height: 90px;
   border-radius: 100px;
   border-color: #ffff;
   background-color: #f7fff7;
