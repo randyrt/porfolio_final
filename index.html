@@ -7,7 +7,6 @@
   <meta name="google" content="notranslate">
   <meta name="description"
     content="Welcome to Randy's portfolio! a full stack web developer with expertise in creating responsive, user-friendly applications. Explore my projects and skills in Laravel, Vue.js, and more.">
-
   <!--ALL LINKS AND TITLE-->
   <title>Randy's Portfolio</title>
   <link rel="icon" type="image/x-icon" href="./favicon.ico">
@@ -29,6 +28,7 @@
 </head>
 
 <!--body-->
+
 <body>
   <!--NAVBAR test-->
   <nav class=" navbar navbar-expand-lg hide" id="hide">
@@ -105,7 +105,8 @@
         </div>
         <div class="col-auto align-items-center">
           <div class="social-links d-flex align-items-center justify-content-start">
-            <a href="https://www.linkedin.com/in/randy-andriantsiory-3a935828a" target="_blank" aria-label="LinkedIn Profile">
+            <a href="https://www.linkedin.com/in/randy-andriantsiory-3a935828a" target="_blank"
+              aria-label="LinkedIn Profile">
               <svg xmlns="http://www.w3.org/2000/svg" fill="#f7fff7" width="24" height="24" viewBox="0 0 24 24">
                 <path
                   d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.339 18.337H5.667v-8.59h2.672v8.59zM7.003 8.574a1.548 1.548 0 1 1 0-3.096 1.548 1.548 0 0 1 0 3.096zm11.335 9.763h-2.669V14.16c0-.996-.018-2.277-1.388-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248h-2.667v-8.59h2.56v1.174h.037c.355-.675 1.227-1.387 2.524-1.387 2.704 0 3.203 1.778 3.203 4.092v4.71z" />
@@ -873,16 +874,16 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6 mb-4">
-                <div class="card shadow-lg border-0 p-3 h-100 card-container" data-aos="fade-right" data-aos-duration="1000"
-                  data-aos-easing="ease-in-out" data-aos-once="false" data-aos-delay="500">
+                <div class="card shadow-lg border-0 p-3 h-100 card-container" data-aos="fade-right"
+                  data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false" data-aos-delay="500">
                   <p class="mb-3"> "Randy is dynamic, works in a clean and professional way, and I enjoy collaborating
                     with him. I truly appreciate him as a developer."</p>
                   <h6 class="text-end">— Olivier Le Grand (Senior Manager, FID-CONNECT PROJECT)</h6>
                 </div>
               </div>
               <div class="col-md-6 mb-4">
-                <div class="card shadow-lg border-0 p-3 h-100 card-container" data-aos="fade-left" data-aos-duration="1000"
-                  data-aos-easing="ease-in-out" data-aos-once="false" data-aos-delay="500">
+                <div class="card shadow-lg border-0 p-3 h-100 card-container" data-aos="fade-left"
+                  data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false" data-aos-delay="500">
                   <p class="mb-3">
                     "There are two things I like about Randy: he adapts quickly and he never stops evolving.
                     I believe he will go far in the IT world."
@@ -1062,11 +1063,26 @@
         </div>
       </section>
 
+      <div class="container-fluid">
+        <div class="line" id="line-wrapper">
+        </div>
+      </div>
+
+      <div class="container mt-3 text-center display-6" data-aos="fade-left" data-aos-duration="1000"
+        data-aos-easing="ease-in-out" data-aos-once="false" data-aos-delay="500" id="project">
+       MY HOUSE
+      </div>
+
+      <div class="container-fluid">
+        <div id="map" style="height: 300px;"></div>
+      </div>
+
       <!--MODAL FOR CARROUSEL-->
       <div class="image-modal" id="imageModal">
         <span class="close-modal" id="closeModal">&times;</span>
         <img class="modal-content" id="modalImage" alt="Enlarged Project Image">
       </div>
+
 
       <!--FOOTER-->
       <footer class="mt-lg-5">
@@ -1081,7 +1097,8 @@
                     functionality with seamless frontend experiences."</p>
                 </div>
                 <div class="social-links">
-                  <a href="https://www.linkedin.com/in/randy-andriantsiory-3a935828a" target="_blank" aria-label="LinkedIn Profile">
+                  <a href="https://www.linkedin.com/in/randy-andriantsiory-3a935828a" target="_blank"
+                    aria-label="LinkedIn Profile">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="#333333" width="24" height="24" viewBox="0 0 24 24">
                       <path
                         d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.339 18.337H5.667v-8.59h2.672v8.59zM7.003 8.574a1.548 1.548 0 1 1 0-3.096 1.548 1.548 0 0 1 0 3.096zm11.335 9.763h-2.669V14.16c0-.996-.018-2.277-1.388-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248h-2.667v-8.59h2.56v1.174h.037c.355-.675 1.227-1.387 2.524-1.387 2.704 0 3.203 1.778 3.203 4.092v4.71z" />
@@ -1151,6 +1168,10 @@
         });
         AOS.refresh();
       </script>
+      <script src="./javascript/map.js"></script>
+      <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1z2E5lPX20jSwBibmDvKVjACMb6INwOM&callback=initMap&libraries=marker">
+        </script>
       <script src="./javascript/popup.js"></script>
       <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
       <script src="./javascript/emailsend.js"></script>
@@ -1162,6 +1183,7 @@
       <script src="./javascript/owl.carousel.min.js"></script>
       <script src="./javascript/app.js"></script>
       <script src="./javascript/dark-white-mode.js"></script>
+
 </body>
 
 </html>
