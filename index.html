@@ -63,6 +63,16 @@
               <a class="nav-link" aria-current="page" href="#project">Projects</a>
             </button>
           </li>
+            <li class="nav-item">
+            <button type="button" class="btn btn-outline-primary">
+              <a class="nav-link" aria-current="page" href="#testimonials">Testimonials</a>
+            </button>
+          </li>
+            <li class="nav-item">
+            <button type="button" class="btn btn-outline-primary">
+              <a class="nav-link" aria-current="page" href="#map">Map</a>
+            </button>
+          </li>
         </ul>
 
         <button type="button" class="btn btn-info ms-lg-auto" aria-label="send an email">
@@ -866,7 +876,7 @@
         </div>
       </div>
       <div class="container mt-3 text-center display-6" data-aos="fade-down" data-aos-duration="1000"
-        data-aos-easing="ease-in-out" data-aos-once="false" data-aos-delay="500" id="project">
+        data-aos-easing="ease-in-out" data-aos-once="false" data-aos-delay="500" id="testimonials">
         TESTIMONIALS
       </div>
       <div class="container">
@@ -1063,7 +1073,7 @@
         </div>
       </section>
 
-      <div class="container-fluid">
+      <div class="container-fluid" id="map">
         <div class="line" id="line-wrapper">
         </div>
       </div>
@@ -1168,12 +1178,12 @@
         });
         AOS.refresh();
       </script>
-      <script src="./javascript/map.js"></script>
-      <script async
+       <script  async
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1z2E5lPX20jSwBibmDvKVjACMb6INwOM&callback=initMap&libraries=marker&language=en">
         </script>
+      <script src="./javascript/map.js"></script>
       <script src="./javascript/popup.js"></script>
-      <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
       <script src="./javascript/emailsend.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
       <script src="./javascript/welcome.js"></script>

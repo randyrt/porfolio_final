@@ -1,4 +1,4 @@
-function initMap() {
+async function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
         center: { lat: -18.86898, lng: 47.48806 },
         fillColor: "#FF0000",
