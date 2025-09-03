@@ -6,7 +6,7 @@ function hasOneDayPassed() {
     if (!lastShownTime) {
         return true;
     }
-
+    
     const timeDifference = currentTime - lastShownTime;
     const oneDayInMilliseconds = 24 * 60 * 60 * 1000; 
 
