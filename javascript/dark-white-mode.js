@@ -12,6 +12,5 @@ navbar.classList.add("lightme-mode"),
 lines.forEach(e => { e.classList.remove("line-dark"), 
 e.classList.add("line-white") }), body.classList.remove("dark-mode"), 
 
-
 localStorage.setItem("dark-mode-cv", "disabled") }; "enabled" === darkmode && enableDarkMode(), 
 toggleButton.addEventListener("click", () => { "disabled" === (darkmode = localStorage.getItem("dark-mode-cv")) ? enableDarkMode() : disableDarkMode() });
